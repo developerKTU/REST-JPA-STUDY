@@ -1,5 +1,6 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.TestClass.LombokTestClass;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
