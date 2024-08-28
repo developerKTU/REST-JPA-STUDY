@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hello Page</title>
+</head>
+<body>
+<!-- 순수 html로 열었을땐 'HTML 출력~' 출력됨 -->
+<!-- 서버사이드 랜더링 시 th:text 구문 출력됨 -->
+<p th:text="'서버사이드 랜더링 : ' + ${data}">HTML 출력~</p>
+</body>
+</html>
